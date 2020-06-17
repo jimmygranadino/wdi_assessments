@@ -3,10 +3,9 @@
 }
 
 div {
-    padding-top: 20px;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #visibleCounter {
@@ -35,12 +34,10 @@ div {
     border: 0;
     color: #ffffff;
     background-color: #888888;
+    border: 1px solid #888888;
 }
 
-#addBtn:hover {
-    background-color: green;
-}
-
-#minusBtn:hover {
-    background-color: darkred;
+.buttons:hover {
+    background-color: #ffffff;
+    color: #000000
 }
